@@ -10,7 +10,7 @@ public class Ex1 {
     public static long calculateGaussSum(long start, long step, int count) {
         // TODO: Implement this method to calculate the sum of the arithmetic progression
         // Hint: Use a loop to add up all the terms
-        long sum = 0; // This is a placeholder return value. Replace it with your calculation.
+        long sum = 0;
         for (int i = 0; i < count; i++) {
             sum += start + i * step;
         }
